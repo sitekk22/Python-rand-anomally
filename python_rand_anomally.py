@@ -6,9 +6,9 @@ lst = []
 
 STEP = 1 # Step
 
-MIN_NUM = int(input("Enter minimal number. [DEFAULT = 0]") or 1) # Min number
-MAX_NUM = int(input("Please enter maximum number. [DEFAULT = 60]") or 60)  # Max number
-REPEATS = int(input("Please enter repeats quantity. [DEFAULT = 10000]") or 10000)  # How much times to randomize
+MIN_NUM = int(input("Enter minimal number. [DEFAULT = 0]: ") or 1) # Min number
+MAX_NUM = int(input("Please enter maximum number. [DEFAULT = 60]: ") or 60)  # Max number
+REPEATS = int(input("Please enter repeats quantity. [DEFAULT = 10000]: ") or 10000)  # How much times to randomize
 
 RANGE = REPEATS
 
